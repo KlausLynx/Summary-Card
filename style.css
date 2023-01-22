@@ -1,0 +1,229 @@
+@import url(https://fonts.google.com/specimen/Red+Hat+Display);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 18px;
+    font-family: 'Red Hat Display';
+    font-weight: 900px;
+}
+
+img {
+    display: block;
+}
+
+body {
+    background-image: url(./images/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: top;
+    background-color: rgb(161, 202, 228);
+    min-height: 100vh;
+}
+
+.body {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    min-height: 80vh;
+}
+
+.cont {
+    display: grid;
+    background-color: #ffffff;
+    margin-top: 0.5rem;
+    border-radius: 15px;
+    width: 450px;
+}
+
+.fig__img {
+    height: 220px;
+}
+
+.fig__img img {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.summary {
+    padding: 2.5rem 3rem 3rem 3rem;
+    display: grid;
+    gap: 20px;
+
+}
+
+.sum__head {
+    text-align: center;
+}
+
+h1 {
+    font-size: xx-large;
+    font-weight: bolder;
+
+}
+
+.sum__head p {
+    line-height: 25px;
+    padding: 0.5rem;
+    color: #808080;
+}
+
+.plan {
+    background-color:#f5f7ff;
+    padding: 1rem 2rem;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.img__plan {
+    display: flex;
+    flex-direction: column nowrap;
+    gap: 20px;
+}
+
+.text__plan {
+    display: grid;
+}
+
+.word_plan {
+    font-weight: bolder;
+}
+
+.digits_plan {
+    color: #808080;
+}
+
+button {
+    background-color: #3829e0;
+    border-radius: 15px;
+    box-shadow: 0px 20px 25px #afb9ed;
+    padding: 1rem;
+}
+
+button p {
+    font-size: 20px;
+    color: #ffffff;
+    font-weight: bolder;
+}
+
+.order {
+    text-align: center;
+    color: #808080;
+    padding-top: 2rem;
+    font-weight: bolder;
+} 
+
+footer {
+    margin-left: 2rem;
+}
+
+:any-link {
+    color: #3829e0;
+}
+
+.attribution {
+    font-size: 1.5rem;
+}
+
+.attribution>a {
+    font-size: 1.5rem;
+}
+
+:any-link:hover {
+    color: tomato;
+}
+
+@media screen and (max-width: 578px) {
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-size: 32px;
+        font-family: 'Red Hat Display';
+        font-weight: 900px;
+    }
+
+    .body {
+        min-width: 533px;
+        width: 600px;
+    }
+
+    .cont {
+        width: 570px;
+    }
+    
+    .fig__img {
+        height: 278px;
+    }
+    
+    .fig__img img {
+        width: 570px;
+    }
+    
+    .summary {
+        padding: 1.5rem 1.5rem 1.5rem 1.5rem;
+        gap: 25px;
+    }
+    
+    .sum__head {
+        text-align: center;
+    }
+    
+    .sum__head p {
+        line-height: 40px;
+    }
+    
+    .plan {
+        padding: 0.5rem 0.5rem;
+    }
+    
+    .text__plan {
+        display: grid;
+    }
+    
+    button {
+        background-color: #3829e0;
+        padding: 1rem;
+        border-radius: 15px;
+    }
+    
+    button p {
+        font-size: 20px;
+        color: #ffffff;
+    }
+    
+    .order {
+        text-align: center;
+        color: #808080;
+        padding-top: 2rem;
+    }
+    
+    :any-link {
+        color: #3829e0;
+    }
+    
+    :any-link:hover {
+        color: tomato;
+    }
+
+    footer {
+        margin-top: 1.5rem;
+        margin-left: 1.5rem;
+        margin-bottom: 1.5rem;
+    }
+    
+    .attribution {
+        font-size: 1rem;
+        display: flex;
+        width: 500px;
+
+    }
+    
+    .attribution>a {
+        font-size: 1rem;
+    }
+}
