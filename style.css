@@ -18,7 +18,7 @@ body {
     background-repeat: no-repeat;
     background-size: 100%;
     background-position: top;
-    background-color: rgb(161, 202, 228);
+    background-color: #a1cae4;
     min-height: 100vh;
 }
 
@@ -145,6 +145,15 @@ footer {
         font-size: 32px;
         font-family: 'Red Hat Display';
         font-weight: 900px;
+    }
+
+    body {
+        background-image: url(./images/pattern-background-mobile.svg);
+        background-repeat: no-repeat;
+        background-size: 100%;
+        background-position: top;
+        background-color: #a1cae4;
+        min-height: 100vh;
     }
 
     .body {
